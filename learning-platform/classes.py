@@ -1,7 +1,3 @@
-# LearningPlatform Class
-
-# Has generate_learning_path(user, topic) method creating adaptive lesson sequence
-
 class User:
     def __init__(self, username, email, learning_style):
         self.username = username
@@ -354,4 +350,5 @@ class LearningPlatform:
         # platform_stats = Jackera.get_platform_stats()
         # print("Total Users:", platform_stats[0])
         # print("Total Lessons:", platform_stats[1])
+
         # print("Total Engagement:", platform_stats[2])
